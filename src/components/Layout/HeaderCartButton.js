@@ -14,7 +14,7 @@ export default function HeaderCartButton(props) {
 
   console.log(cartCtx)
   return (
-    <button className={classes.button} onClick={props.onShowCart}>
+    <button className={classes.button} onClick={props.onClick}>
       <span className={classes.icon}>
         <CartIcon />
       </span>

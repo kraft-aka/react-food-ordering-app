@@ -9,7 +9,7 @@ export default function MealItemForm(props) {
     e.preventDefault();
 
     const enteredItemAmount = mealAmountRef.current.value;
-    const enteredItemAmountNumber = +mealItemAmount;
+    const enteredItemAmountNumber = +enteredItemAmount;
 
     if (
       enteredItemAmount.trim().length === 0 ||
